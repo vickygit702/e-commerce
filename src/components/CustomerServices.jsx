@@ -11,14 +11,14 @@ const links = [
 const CustomerServices = () => {
   return (
     <div className=" flex flex-col  w-1/2 text-center justify-center">
-      <p className="xl:text-[16px]  lg:text-[14px] md:text-[12px] sm:text-[10px] font-bold mb-2 text-gray-700 underline underline-offset-2">
+      <p className="text-[10px] xl:text-[16px]  lg:text-[14px] md:text-[12px] sm:text-[10px] font-bold mb-2 text-gray-700 underline underline-offset-2">
         Customer Services
       </p>
       <ul className="space-y-1">
         {links.map((link) => (
           <li
             key={link.id}
-            className="xl:text-[16px]  lg:text-[14px] md:text-[12px] sm:text-[10px]"
+            className="text-[10px] xl:text-[16px]  lg:text-[14px] md:text-[12px] sm:text-[10px]"
           >
             <a
               href={link.url}

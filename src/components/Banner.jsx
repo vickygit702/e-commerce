@@ -27,20 +27,20 @@ const Banner = () => {
   }, []);
 
   return (
-    <div className="relative  xl:w-[973px] xl:h-[255px] lg:w-[973px] lg:h-[255px] md:w-[708px] md:h-[202px] sm:w-[380px] sm:h-[130px] mx-auto overflow-hidden rounded-[15px] shadow-lg">
+    <div className="relative w-[350px] h-[120px] xl:w-[973px] xl:h-[255px] lg:w-[973px] lg:h-[255px] md:w-[708px] md:h-[202px] sm:w-[380px] sm:h-[130px] mx-auto overflow-hidden rounded-[15px] shadow-lg">
       {/* Current banner */}
       <div
         key={current}
         className="w-full h-full flex items-center justify-between bg-gradient-to-r from-orange-100 to-yellow-100 transition-all duration-700"
       >
         {/* Left text */}
-        <h2 className="xl:text-2xl lg:text-xl md:text-lg sm:text-sm font-bold text-gray-800 w-1/2 text-center">
+        <h2 className="text-sm xl:text-2xl lg:text-xl md:text-lg sm:text-sm font-bold text-gray-800 w-1/2 text-center">
           {banners[current].text}
         </h2>
 
         {/* Right image placeholder */}
         <div className="w-1/2 flex justify-center">
-          <div className="xl:w-[180px] xl:h-[180px] md:w-[120px] md:h-[120px] sm:w-[90px] sm:h-[90px] bg-gray-300 rounded-lg flex items-center justify-center text-gray-600">
+          <div className="w-[80px] h-[80px] xl:w-[180px] xl:h-[180px] md:w-[120px] md:h-[120px] sm:w-[90px] sm:h-[90px] bg-gray-300 rounded-lg flex items-center justify-center text-gray-600">
             Image
           </div>
         </div>

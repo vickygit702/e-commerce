@@ -15,7 +15,7 @@ const DailyEssentialsList = () => {
       {essentials.map((item) => (
         <div key={item.id}>
           <div
-            className="xl:h-[152px] xl:w-[152px] lg:h-[152px] lg:w-[152px] 
+            className="h-[65px] w-[65px] xl:h-[152px] xl:w-[152px] lg:h-[152px] lg:w-[152px] 
              md:h-[110px] md:w-[110px] sm:h-[85px] sm:w-[85px] 
              border rounded-lg shadow-md  bg-white"
           >
@@ -27,7 +27,7 @@ const DailyEssentialsList = () => {
 
             {/* Text inside same box, just below image */}
           </div>
-          <p className="text-sm font-sm text-gray-500 text-center mt-2">
+          <p className="font-medium text-[7px] xl:text-[12px] lg:text-[11px] md:text-[10px] sm:text-[8px] font-sm text-gray-500 text-center mt-2">
             {item.name}
           </p>
         </div>

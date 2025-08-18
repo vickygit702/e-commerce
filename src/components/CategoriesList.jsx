@@ -37,7 +37,7 @@ const CategoriesList = () => {
       {categories.map((cat) => (
         <div
           key={cat.id}
-          className="xl:h-[152px] xl:w-[152px] lg:h-[152px] lg:w-[152px] md:h-[120px] md:w-[120px] sm:h-[80px] sm:w-[80px] rounded-full shadow-md border flex items-center text-center justify-center overflow-hidden bg-gray-100"
+          className="h-[70px] w-[70px] xl:h-[152px] xl:w-[152px] lg:h-[152px] lg:w-[152px] md:h-[120px] md:w-[120px] sm:h-[80px] sm:w-[80px] rounded-full shadow-md border flex items-center text-center justify-center overflow-hidden bg-gray-100"
         >
           {cat.img ? (
             <img
