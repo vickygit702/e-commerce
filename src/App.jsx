@@ -33,13 +33,13 @@ function App() {
           <Contact />
         </div>
       </div>
+      {/* <ProductDetail /> */}
+      {/* <MobilePhonesPage /> */}
       <footer className="bg-blue-800 text-white text-center py-2 xl:py-4 lg:py-3 md:py-2">
         <p className="font-medium text-[10px] xl:text-[16px] lg:text-[14px] md:text-[12px] sm:text-[10px]">
           &copy; 2025 eMart. All rights reserved.
         </p>
       </footer>
-      {/* <MobilePhonesPage /> */}
-      {/* <ProductDetail /> */}
     </>
   );
 }

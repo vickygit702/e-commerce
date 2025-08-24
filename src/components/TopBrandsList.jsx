@@ -30,7 +30,7 @@ const TopBrandsList = () => {
       {brands.map((brand) => (
         <div
           key={brand.id}
-          className="w-[130px] h-[100px] xl:w-[315px] xl:h-[168px] lg:w-[315px] lg:h-[168px] md:w-[240px] md:h-[140px] sm:w-[200px] sm:h-[120px] border rounded-lg shadow-md flex items-center justify-between space-evenly bg-white"
+          className="w-[135px] h-[100px] xl:w-[315px] xl:h-[168px] lg:w-[315px] lg:h-[168px] md:w-[240px] md:h-[140px] sm:w-[200px] sm:h-[120px]   rounded-lg shadow-md flex items-center justify-between space-evenly bg-white"
         >
           {/* Left Section */}
           <div className="flex flex-col items-center gap-2 w-1/2 ">
@@ -47,7 +47,7 @@ const TopBrandsList = () => {
             </div>
 
             {/* Discount */}
-            <p className="text-[8px] xl:text-[16px] lg:text-[14px] md:text-[12px] sm:text-[11px] font-medium text-red-500">
+            <p className="text-[8px] xl:text-[16px] lg:text-[14px] md:text-[12px] sm:text-[11px] font-bold text-red-700">
               {brand.discount}
             </p>
           </div>
