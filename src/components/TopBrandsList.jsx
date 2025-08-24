@@ -3,24 +3,24 @@ import React from "react";
 const brands = [
   {
     id: 1,
-    name: "Nike",
-    logo: "/images/nike-logo.png",
+    name: "APPLE",
+    logo: "/apple.png",
     discount: "Up to 50% Off",
-    img: "/images/nike-shoes.png",
+    img: "/redmi.png",
   },
   {
     id: 2,
-    name: "Adidas",
-    logo: "/images/adidas-logo.png",
+    name: "VIVO",
+    logo: "/apple.png",
     discount: "Up to 40% Off",
-    img: "/images/adidas-shoes.png",
+    img: "/redmi.png",
   },
   {
     id: 3,
-    name: "Puma",
-    logo: "/images/puma-logo.png",
+    name: "SAMSUNG",
+    logo: "/apple.png",
     discount: "Up to 60% Off",
-    img: "/images/puma-shoes.png",
+    img: "/redmi.png",
   },
 ];
 

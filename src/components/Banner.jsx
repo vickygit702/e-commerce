@@ -40,8 +40,8 @@ const Banner = () => {
 
         {/* Right image placeholder */}
         <div className="w-1/2 flex justify-center">
-          <div className="w-[80px] h-[80px] xl:w-[180px] xl:h-[180px] md:w-[120px] md:h-[120px] sm:w-[90px] sm:h-[90px] bg-gray-300 rounded-lg flex items-center justify-center text-gray-600">
-            Image
+          <div className="w-[80px] h-[80px] xl:w-[180px] xl:h-[180px] md:w-[120px] md:h-[120px] sm:w-[90px] sm:h-[90px] bg-transparent rounded-lg flex items-center justify-center text-gray-600">
+            <img src="/mobile.png" className="h-full w-full object-contain" />
           </div>
         </div>
       </div>

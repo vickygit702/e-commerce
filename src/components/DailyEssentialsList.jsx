@@ -5,7 +5,7 @@ const essentials = [
   { id: 2, name: "Bread", img: "/milk.jpg" },
   { id: 3, name: "Eggs", img: "/milk.jpg" },
   { id: 4, name: "Rice", img: "/milk.jpg" },
-  { id: 5, name: "Oil", img: "/milk.jpg" },
+  { id: 5, name: "Oil", img: "/oil.png" },
   { id: 6, name: "Vegetables", img: "/milk.jpg" },
 ];
 

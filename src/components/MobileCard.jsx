@@ -10,7 +10,7 @@ const MobileCard = () => {
           <div className="relative flex justify-center items-center h-[62px] w-[80px] xl:h-[153px] xl:w-[185px] lg:h-[153px] lg:w-[185px] md:h-[92px] md:w-[140px] sm:h-[70px] sm:w-[110px]">
             {/* Image placeholder */}
             <div className="h-full w-full bg-gray-200 rounded-tl-md rounded-tr-md   flex items-center justify-center text-gray-600">
-              Img
+              <img src="/redmi.png" className="h-full w-full object-contain" />
             </div>
 
             {/* Offer Badge */}
