@@ -1,12 +1,12 @@
 import React from "react";
 
 const essentials = [
-  { id: 1, name: "Milk", img: "/milk.jpg" },
-  { id: 2, name: "Bread", img: "/milk.jpg" },
-  { id: 3, name: "Eggs", img: "/milk.jpg" },
-  { id: 4, name: "Rice", img: "/milk.jpg" },
-  { id: 5, name: "Oil", img: "/oil.png" },
-  { id: 6, name: "Vegetables", img: "/milk.jpg" },
+  { id: 1, name: "Milk", img: "/dailyessentials/milk.jpg" },
+  { id: 2, name: "Bread", img: "/dailyessentials/bread.png" },
+  { id: 3, name: "Eggs", img: "/dailyessentials/egg.png" },
+  { id: 4, name: "Rice", img: "/dailyessentials/rice.png" },
+  { id: 5, name: "Oil", img: "/dailyessentials/oil.png" },
+  { id: 6, name: "Vegetables", img: "/dailyessentials/vegtables.png" },
 ];
 
 const DailyEssentialsList = () => {

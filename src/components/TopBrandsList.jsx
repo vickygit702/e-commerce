@@ -4,23 +4,23 @@ const brands = [
   {
     id: 1,
     name: "APPLE",
-    logo: "/apple.png",
+    logo: "/brands/applelogo.png",
     discount: "Up to 50% Off",
-    img: "/redmi.png",
+    img: "/brands/redmi.png",
   },
   {
     id: 2,
     name: "VIVO",
-    logo: "/apple.png",
+    logo: "/brands/vivologo.png",
     discount: "Up to 40% Off",
-    img: "/redmi.png",
+    img: "/brands/redmi.png",
   },
   {
     id: 3,
     name: "SAMSUNG",
-    logo: "/apple.png",
+    logo: "/brands/redmilogo.png",
     discount: "Up to 60% Off",
-    img: "/redmi.png",
+    img: "/brands/redmi.png",
   },
 ];
 
@@ -34,15 +34,15 @@ const TopBrandsList = () => {
         >
           {/* Left Section */}
           <div className="flex flex-col items-center gap-2 w-1/2 ">
-            <h3 className="text-[12px] xl:text-xl lg:text-lg md:text-md sm:text-sm font-semibold text-gray-800">
+            {/* <h3 className="text-[12px] xl:text-xl lg:text-lg md:text-md sm:text-sm font-semibold text-gray-800">
               {brand.name}
-            </h3>
+            </h3> */}
 
             {/* Logo */}
             <div className="w-[40px] h-[40px] xl:w-[100px] xl:h-[100px] lg:w-[100px] lg:h-[100px] md:w-[80px] md:h-[80px] sm:w-[60px] sm:h-[60px] flex items-center justify-center">
               <img
                 src={brand.logo}
-                className="max-h-full max-w-full object-contain"
+                className="max-h-full max-w-full object-contain p-1"
               />
             </div>
 
@@ -53,7 +53,7 @@ const TopBrandsList = () => {
           </div>
 
           {/* Right Section - Product Image */}
-          <div className="px-2 py-2 w-1/2 h-full flex items-center justify-center">
+          <div className="px-0 py-0 md:px-2 md:py-2 w-1/2 h-full flex items-center justify-center">
             <img src={brand.img} className="h-full w-full object-contain" />
           </div>
         </div>

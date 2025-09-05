@@ -3,15 +3,15 @@ import React, { useState, useEffect } from "react";
 const banners = [
   {
     text: "Flat 20% Diwali Sale",
-    img: "/images/diwali.png",
+    img: "/banner/diwali.png",
   },
   {
     text: "Mega Electronics Offer - Up to 40% Off",
-    img: "/images/electronics.png",
+    img: "/banner/electronics.png",
   },
   {
     text: "Fashion Fest - Buy 1 Get 1 Free",
-    img: "/images/fashion.png",
+    img: "/banner/fashion.png",
   },
 ];
 
@@ -41,7 +41,10 @@ const Banner = () => {
         {/* Right image placeholder */}
         <div className="w-1/2 flex justify-center">
           <div className="w-[80px] h-[80px] xl:w-[180px] xl:h-[180px] md:w-[120px] md:h-[120px] sm:w-[90px] sm:h-[90px] bg-transparent rounded-lg flex items-center justify-center text-gray-600">
-            <img src="/mobile.png" className="h-full w-full object-contain" />
+            <img
+              src={banners[current].img}
+              className="h-full w-full object-contain"
+            />
           </div>
         </div>
       </div>
